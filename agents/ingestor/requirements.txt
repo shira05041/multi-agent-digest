@@ -1,2 +1,1 @@
-os
-logging
+# No external dependencies needed
