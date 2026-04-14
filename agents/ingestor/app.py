@@ -9,7 +9,7 @@ logging.basicConfig(
 logger =  logging.getLogger("ingestor")
 
 INPUT_DIR = "./data/input"
-OUTPUT_FILE = "data/output/ingested_data.txt"
+OUTPUT_FILE = "data/ingested_data.txt"
 
 def ingest():
     content = ""

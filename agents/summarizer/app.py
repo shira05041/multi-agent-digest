@@ -9,8 +9,8 @@ logging.basicConfig(
 
 logger = logging.getLogger("summarizer")
 
-INPUT_FILE = "data/ingested_data.txt"
-OUTPUT_FILE = "data/summarized_data.txt"
+INPUT_FILE = "data/ingested.txt"
+OUTPUT_FILE = "data/summary.txt"
 
 client = OpenAI()
 
