@@ -45,3 +45,13 @@ coverage.xml
 # OS generated files
 .DS_Store
 Thumbs.db
+
+
+# .gitignore
+.env
+output/
+data/ingested.txt
+data/summary.txt
+data/prioritized.txt
+__pycache__/
+*.pyc
